@@ -43,7 +43,7 @@ Start Header
 /* hover color */
 .topnav a:hover {
   background-color: #cf8ea6;
-  color: gray;
+  color: black;
 }
 
 /* active/current color */
@@ -118,3 +118,34 @@ Header End
   top: -425px;
   left: 150px;
 }
+
+/* start branding */
+.brand {
+  position: absolute;
+  width: 1116px;
+  height: 109px;
+  left: 162px;
+  top: 731px;
+}
+.brand {
+  box-shadow: 10px;
+}
+.brand-items {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Style for horizontal line */
+hr {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+/* Start Popular Collection */
