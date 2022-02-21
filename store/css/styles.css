@@ -167,6 +167,9 @@ Header End
 .star i{
   color: rgb(255, 174, 0);
 }
-.ditails{
-  text-emphasis-color: gray;
-}
+.ditails h3{
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  font-style: normal 
+    }
