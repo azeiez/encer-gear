@@ -85,9 +85,11 @@ Header End
 
 .journey_laft {
   width: 50%;
+  height: 500px;
 }
 .journey_right {
   width: 50%;
+  height: 500px;
 }
 
 .Start-Journey {
@@ -120,32 +122,51 @@ Header End
 }
 
 /* start branding */
-.brand {
-  position: absolute;
-  width: 1116px;
-  height: 109px;
-  left: 162px;
-  top: 731px;
-}
-.brand {
-  box-shadow: 10px;
-}
+
 .brand-items {
   justify-content: space-around;
   display: flex;
   align-items: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 /* Style for horizontal line */
-hr {
-  display: block;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
+.hr {
+  background: radial-gradient(rgb(189, 189, 189), white);
+    height: 2px; 
 }
 /* Start Popular Collection */
+.collection-container{
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  align-items: center;
+}
+.popular-collection{
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 100px;
+  font-size: 1.25em;
+ }
+ 
+/* products */
+.product{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 15px;
+  margin: 15px;
+}
+.product img{
+  width: 100%;
+}
+/* rating star */
+.rating{
+  display:flex;
+}
+.star i{
+  color: rgb(255, 174, 0);
+}
+.ditails{
+  text-emphasis-color: gray;
+}
