@@ -173,3 +173,65 @@ Header End
   font-family: 'Inter', sans-serif;
   font-style: normal 
     }
+
+/* see-more */
+.see-more{
+      text-align: right;
+      color: #e02c6d;
+      margin-top: 75px;
+      margin-bottom: 125px;
+    }
+.see-more:hover {
+            color: #c07d96;
+    }
+
+    /* one place style */
+    .one-place {
+           display: flex;
+      justify-content: space-between
+      
+    }
+    .one-place_laft {
+      width: 50%;
+      height: 500px;
+    }
+    .one-place_right {
+    width: 50%;
+    height: 500px;
+    }  
+       
+
+            
+
+    /* button 2 style */
+.btn2 {
+      background-color: #e02c6d;
+      color: white;
+      padding: 15px 40px;
+      border: none;
+      font-family: Poppins;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+    /* button 2 hover */
+.btn2:hover {
+      background-color: #cf8ea6;
+    }
+/* footer Style */
+footer {
+  background-color: #010133;
+  display: block;
+  color:white;
+  text-align: center;
+
+}
+
+.footer-icon{
+  font-size: 3em;
+  color: silver;
+  word-spacing: 20px;
+}
